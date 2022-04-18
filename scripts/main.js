@@ -11,9 +11,11 @@ const myHeading = document.querySelector('h1')
 myHeading.textContent = "Hello World"  //  The code set the value of the myHeading variable's textContent property (which represents the content of the heading) to Hello world!.
 
 
-const divide = (num1, num2) => {
-  let result = num1 / num2;
-  return result;
-}
+const obj = {
+  id: 1,
+  movie: "Jack Ryan",
+  year: 2018,
+  live: true,
+};
 
-console.log(divide(10, 2))
+console.table(obj);
