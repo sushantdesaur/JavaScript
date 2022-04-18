@@ -14,10 +14,25 @@ alert("hello!");
 
 // User-defined functions
 
+// Traditional Function
+
 function multiply(num1, num2) {
   let result = num1 * num2;
   return result;
 }
+
+// Arrow Function
+
+
+const divide = (num1, num2) => {
+  let result = num1 / num2;
+  return result;
+};
+
+console.log(divide(10, 2));
+
+
+
 
 
 console.log(multiply(4, 7));
