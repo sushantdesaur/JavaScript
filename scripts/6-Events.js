@@ -10,3 +10,12 @@ To demonstrate this, enter the following into your console, then click on the cu
 document.querySelector("html").addEventListener("click", function () {
   alert("Ouch! Stop poking me!");
 });
+
+
+// Similar to above function
+
+let myHTML = document.querySelector("html");
+
+myHTML.addEventListener("click", () => {
+  alert("Ouch! Stop poking me!");
+});
