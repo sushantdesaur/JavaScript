@@ -11,7 +11,28 @@ Variables are containers that store values. You start by declaring a variable wi
 
 // After assigning a value to a variable, you can change it later in the code:
 
-// let myVariable = "Bob";
-// myVariable = "Steve";
+// Traditional JavaScript Variables 
 
-// console.log(myVariable);
+var number = 10
+ 
+// Let Variable
+
+let myVariable = "Bob";
+myVariable = "Steve"; // In let value is replaceable
+
+// Const Variable 
+
+const name = "Jane"
+
+let boolean = true
+
+const array = ["Jane", 10, true]
+
+const obj = {
+    id: 1,
+    movie: "Jack Ryan",
+    year: 2018,
+    live: true
+}
+
+console.table(obj);
