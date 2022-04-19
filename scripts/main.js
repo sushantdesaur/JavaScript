@@ -11,11 +11,15 @@ const myHeading = document.querySelector('h1')
 myHeading.textContent = "Hello World"  //  The code set the value of the myHeading variable's textContent property (which represents the content of the heading) to Hello world!.
 
 
-const obj = {
-  id: 1,
-  movie: "Jack Ryan",
-  year: 2018,
-  live: true,
-};
 
-console.table(obj);
+let shoppingDone = false;
+let childsAllowance;
+
+if (shoppingDone === true) {
+  childsAllowance = 10;
+  console.log(childsAllowance)
+} else {
+  childsAllowance = 5;
+  console.log(childsAllowance);
+}
+
